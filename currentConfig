@@ -76,7 +76,7 @@
         },
         {
           "title": "Driver Station",
-          "description": "If you are scouting thE same driver station each match, choose here",
+          "description": "If you are scouting the same driver station each match, choose here",
           "type": "select",
           "required": false,
           "code": "driverStation",
@@ -101,7 +101,7 @@
           "defaultValue": 1
         },
         {
-          "title": "Team & Robot Position",
+          "title": "Team #:",
           "description": "Select team and robot position",
           "type": "TBA-team-and-robot",
           "required": true,
@@ -116,7 +116,6 @@
           "required": true,
           "code": "startPos",
           "formResetBehavior": "reset",
-          "defaultValue": "Not Chosen",
           "choices": {
             "OT": "A. Outpost Trench",
             "OBFT": "B. Outpost Bump Favoring Trench",
